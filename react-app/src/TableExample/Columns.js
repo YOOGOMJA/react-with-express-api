@@ -3,10 +3,10 @@ import React from 'react';
 function Column(props , idx){
     return (
         <tr key={idx}>    
-            <td>{props.seq}</td>
-            <td>{props.title}</td>
-            <td>{props.author}</td>
-            <td>{props.createdate + ''}</td>
+            <td>{props.Seq}</td>
+            <td>{props.Title}</td>
+            <td>{props.Writer}</td>
+            <td>{props.Date }</td>
         </tr>
     );
 }
