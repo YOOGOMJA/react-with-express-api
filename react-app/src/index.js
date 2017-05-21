@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './TableExample/App';
 import registerServiceWorker from './registerServiceWorker';
-import './index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import './TableExample/global.css'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+
+ReactDOM.render(<App Title="Welcome to React-with-express-api"/>, document.getElementById('root'));
 registerServiceWorker();
